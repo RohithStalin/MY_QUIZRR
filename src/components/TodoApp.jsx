@@ -59,7 +59,6 @@ const TodoApp = () => {
       >
         Add
       </button>
-
       {list.length > 0 && (
         <div className="container mx-auto grid justify-items-center">
           <h2 className="text-xl font-bold mb-4 text-purple-800">Todo List</h2>
@@ -110,6 +109,7 @@ const TodoApp = () => {
           </table>
         </div>
       )}
+      //todo table
       <div className="mt-3 grid gap-2 p-4">
         <h1 className="text-2xl text-indigo-700 text-center font-bold">
           Todo Info Table
